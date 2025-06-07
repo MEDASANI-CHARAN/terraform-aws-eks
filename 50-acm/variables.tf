@@ -16,9 +16,9 @@ variable "common_tags" {
 }
 
 variable "zone_name" {
-  default = "daws78s.online"
+  default = "daws2025.online"
 }
 
 variable "zone_id" {
-  default = "Z08884492QFPW45HM4UQO"
+  default = "Z06794012YZ552T1IPKZA"
 }
