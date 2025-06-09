@@ -18,4 +18,4 @@ data "aws_ssm_parameter" "private_subnet_ids" {
 
 data "aws_vpc" "default" {
   default = true
-}
+} 

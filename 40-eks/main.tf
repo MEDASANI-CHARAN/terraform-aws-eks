@@ -14,7 +14,7 @@ module "eks" {
   cluster_version = "1.31"
   # it should be false in PROD environments
   cluster_endpoint_public_access = true
- 
+
   vpc_id                   = local.vpc_id
   subnet_ids               = split(",", local.private_subnet_ids)
   control_plane_subnet_ids = split(",", local.private_subnet_ids)
