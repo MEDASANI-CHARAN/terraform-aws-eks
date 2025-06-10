@@ -19,4 +19,4 @@ variable "environment" {
 
 variable "cluster_service_ipv4_cidr" {
   default = "10.100.0.0/16"
-}       
+}        
