@@ -16,7 +16,7 @@ variable "project_name" {
 variable "environment" {
   default = "dev"
 }
-
+ 
 variable "cluster_service_ipv4_cidr" {
   default = "10.100.0.0/16"
 }        
