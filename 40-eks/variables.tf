@@ -11,7 +11,7 @@ variable "sg_tags" {
 }
 
 variable "project_name" {
-  default = "expense"
+  default = "expense" 
 }
 variable "environment" {
   default = "dev"
